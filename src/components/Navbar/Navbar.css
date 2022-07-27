@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   height: 10vh;
-  background-color: tomato;
 }
 
 .n-left {
@@ -10,7 +9,6 @@
   align-items: center;
   flex: 1;
   gap: 2rem;
-  background-color: teal;
 }
 
 .n-name {

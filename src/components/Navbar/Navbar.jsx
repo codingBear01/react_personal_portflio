@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
@@ -18,10 +18,10 @@ function Navbar() {
             <li>Testimonials</li>
           </ul>
         </div>
-        <button className="button n-button">Contact Us</button>
+        <button className="button n-button">Contact</button>
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;
