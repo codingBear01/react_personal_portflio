@@ -22,3 +22,13 @@
   font-size: 16px;
   color: var(--gray);
 }
+
+.c-button {
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  font-size: 16px;
+  color: #5290fd;
+}
