@@ -15,7 +15,7 @@ const Services = () => {
   const transition = { duration: 1, type: 'spring' };
 
   return (
-    <div className="services">
+    <div className="services" id="Services">
       {/* left side */}
       <div className="awesome">
         <span style={{ color: darkMode ? 'white' : '' }}>My Awesome</span>
@@ -51,7 +51,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={'Developer'}
-            detail={'HTML, CSS, JavaScript, React'}
+            detail={'HTML, CSS, JavaScript, React, Vue, Angular'}
           />
         </motion.div>
         <motion.div

@@ -44,3 +44,9 @@
   box-shadow: var(--boxShadow);
   background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c);
 }
+
+@media screen and (max-width: 480px) {
+  .experience {
+    transform: scale(0.7);
+  }
+}

@@ -34,11 +34,18 @@
   margin-right: 4rem;
 }
 
-.n-list > ul > li:hover {
+.n-list > ul li:hover {
   cursor: pointer;
   color: var(--orange);
 }
 
 .n-button {
   flex: 2;
+}
+
+@media screen and (max-width: 480px) {
+  .n-list,
+  .n-button {
+    display: none;
+  }
 }

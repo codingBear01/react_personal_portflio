@@ -69,5 +69,19 @@
 }
 
 .t-wrapper .swiper-pagination-bullet-active {
-  background: var(--orange);
+  background: var(--orange) !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--orange) !important;
+}
+
+@media screen and (max-width: 480px) {
+  .t-wrapper {
+    padding: 0;
+  }
+  .testimonial > img {
+    width: 70px;
+    height: 70px;
+  }
 }

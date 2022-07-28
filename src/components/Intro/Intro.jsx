@@ -48,6 +48,7 @@ const Intro = () => {
           alt="glassesImoji"
         />
         <motion.div
+          className="floating-div"
           initial={{ top: '-4%', left: '74%' }}
           whileInView={{ left: '68%' }}
           transition={transition}
@@ -56,6 +57,7 @@ const Intro = () => {
           <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
         </motion.div>
         <motion.div
+          className="floating-div"
           initial={{ top: '18rem', left: '9rem' }}
           whileInView={{ left: '0rem' }}
           transition={transition}
